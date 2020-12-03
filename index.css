@@ -1,0 +1,17 @@
+@media (min-width: 576px) {
+     section:nth-child(even) div {
+          order: 1;
+     }
+     
+     section:nth-child(even) img {
+          order: 2;
+     }
+     
+     section:nth-child(odd) div {
+          order: 2;
+     }
+     
+     section:nth-child(odd) img {
+          order: 1;
+     }
+}
