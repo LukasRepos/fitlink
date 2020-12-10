@@ -17,8 +17,8 @@ $.ajax({
             internalDiv.append(textEl);
 
             let imageEl = $(`<img class='col-sm-3' src='${val["url"]}' alt='${val["alt"]}'>`);
-            section.append(imageEl);
             section.append(internalDiv);
+            section.append(imageEl);
 
             container.append("<hr>")
             container.append(section);
