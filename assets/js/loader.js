@@ -6,7 +6,6 @@ $.ajax({
         let container = $("#main-content")
         let data = result["data"];
         data.forEach(val => {
-            console.log(container);
             let internalDiv = $("<div class='col-sm-9'></div>");
             let section = $("<section class='row alternate'></section>");
 
@@ -20,7 +19,7 @@ $.ajax({
             section.append(internalDiv);
             section.append(imageEl);
 
-            container.append("<hr>")
+            container.append("<hr>");
             container.append(section);
         });
     }
