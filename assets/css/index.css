@@ -3,20 +3,20 @@ html {
 }
 
 @media (min-width: 768px) {
-    .alternate:nth-of-type(even) div {
-        order: 1
-    }
-
-    .alternate:nth-of-type(even) img {
+    .alternate:nth-of-type(even) div p {
         order: 2
     }
 
-    .alternate:nth-of-type(odd) div {
-        order: 2
+    .alternate:nth-of-type(even) div img {
+        order: 1
     }
 
-    .alternate:nth-of-type(odd) img {
+    .alternate:nth-of-type(odd) div p {
         order: 1
+    }
+
+    .alternate:nth-of-type(odd) div img {
+        order: 2
     }
 }
 
@@ -72,4 +72,12 @@ html {
     height: 2px;
     width: 320px;
     background-color: #303030;
+}
+
+.marketing-image {
+    object-fit: contain;
+}
+
+.promo {
+    height: 80vh;
 }

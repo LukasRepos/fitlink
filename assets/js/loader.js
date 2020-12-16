@@ -6,21 +6,26 @@ $.ajax({
         let container = $("#main-content")
         let data = result["data"];
         data.forEach(val => {
-            let internalDiv = $("<div class='col-sm-9'></div>");
-            let section = $("<section class='row alternate'></section>");
+            let internalDiv = $("<div class='row'></div>");
+            let section = $("<section class='alternate promo'></section>");
 
-            let titleEl = $(`<h4>${val["title"]}</h4>`);
-            let textEl = $(`<p>${val["content"]}</p>`);
+            let titleEl = $(`<h3>${val["title"]}</h3>`);
+            let textEl = $(`<p class="col-sm-9">${val["content"]}</pclass>`);
 
-            internalDiv.append(titleEl);
+            let imageEl = $(`<img class='col-sm-3 marketing-image' src='${val["url"]}' alt='${val["alt"]}'>`);
+
+            internalDiv.append(imageEl);
             internalDiv.append(textEl);
 
-            let imageEl = $(`<img class='col-sm-3' src='${val["url"]}' alt='${val["alt"]}'>`);
+            section.append(titleEl);
             section.append(internalDiv);
-            section.append(imageEl);
 
             container.append("<hr>");
             container.append(section);
         });
+    },
+    error: (_, status, err) => {
+        console.error("App failed with status " + status);
+        console.error(err);
     }
 });

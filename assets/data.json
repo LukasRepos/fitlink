@@ -1,28 +1,16 @@
 {
   "data": [
     {
-      "title": "lorem ipsum",
-      "url": "https://source.unsplash.com/random/100x100/",
+      "title": "Porquê usar esta aplicação?",
+      "url": "./assets/images/marketing_01.jpg",
       "alt": "An image",
-      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quibusdam quae atque nam molestias temporibus consequatur? Facilis ab a sint pariatur unde provident, quasi consequuntur molestias, fuga, minus illo deleniti!"
+      "content": "Além de se poderes treinar em qualquer lado a qualquer hora com um treino personalizado criado por <i>Personal Trainer's</i> certificados e escolhidos a dedo, podes usufruir ainda de uma usuabilidade sem precedentes nesta área."
     },
     {
-      "title": "lorem ipsum",
-      "url": "https://source.unsplash.com/random/100x100/",
+      "title": "Quais as vantagens de usar a Aplicação Móvel?",
+      "url": "./assets/images/marketing_01.jpg",
       "alt": "An image",
-      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quibusdam quae atque nam molestias temporibus consequatur? Facilis ab a sint pariatur unde provident, quasi consequuntur molestias, fuga, minus illo deleniti!"
-    },
-    {
-      "title": "lorem ipsum",
-      "url": "https://source.unsplash.com/random/100x100/",
-      "alt": "An image",
-      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quibusdam quae atque nam molestias temporibus consequatur? Facilis ab a sint pariatur unde provident, quasi consequuntur molestias, fuga, minus illo deleniti!"
-    },
-    {
-      "title": "lorem ipsum",
-      "url": "https://source.unsplash.com/random/100x100/",
-      "alt": "An image",
-      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quibusdam quae atque nam molestias temporibus consequatur? Facilis ab a sint pariatur unde provident, quasi consequuntur molestias, fuga, minus illo deleniti!"
+      "content": "Além de se poderes treinar em qualquer lado a qualquer hora com um treino personalizado criado por <i>Personal Trainer's</i> certificados e escolhidos a dedo, podes usufruir ainda de uma usuabilidade sem precedentes nesta área."
     }
   ]
 }
