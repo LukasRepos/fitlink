@@ -1,16 +1,22 @@
 {
   "data": [
     {
-      "title": "Porquê usar esta aplicação?",
+      "title": "O que fazemos?",
       "url": "./assets/images/marketing_01.jpg",
       "alt": "An image",
-      "content": "Além de se poderes treinar em qualquer lado a qualquer hora com um treino personalizado criado por <i>Personal Trainer's</i> certificados e escolhidos a dedo, podes usufruir ainda de uma usuabilidade sem precedentes nesta área."
+      "content": "Somos uma empresa que desenvolve soluções em forma de apps ou websites com objetivo de melhorar o acesso de utilizadores ao nosso promotor e melhorar a qualidade de vida em relação aos clientes deste."
     },
     {
-      "title": "Quais as vantagens de usar a Aplicação Móvel?",
-      "url": "./assets/images/marketing_01.jpg",
+      "title": "Qual o nosso promotor?",
+      "url": "./assets/images/marketing_02.jpg",
       "alt": "An image",
-      "content": "Além de se poderes treinar em qualquer lado a qualquer hora com um treino personalizado criado por <i>Personal Trainer's</i> certificados e escolhidos a dedo, podes usufruir ainda de uma usuabilidade sem precedentes nesta área."
+      "content": "O nosso promotor é uma empresa chamada  <i><b>Fit4Ever</b></i> que pretende aumentar o número de clientes e publicidade, aplicando novas estratégias no mercado."
+    },
+    {
+      "title": "Porquê usar esta aplicação?",
+      "url": "./assets/images/marketing_03.jpg",
+      "alt": "An image",
+      "content": "Com esta app a empresa <i><b>Fit4Ever</b></i> consegue reunir os clientes que gostam de ir ao ginásio e os clientes que não gostam ou não podem ir tudo num só local, acabando por melhorar o treino tanto para quem utiliza o ginásio como para quem não utiliza. Permite o acompanhamento personalizado por um personal trainer à distancia e elimina problemas de incompatibilidade de horarios."
     }
   ]
 }
